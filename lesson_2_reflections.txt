@@ -1,0 +1,8 @@
+When I initialize a git repository, it doesn't create any commits. I will have untracked files,
+if there were any files in the directory already, and I must decide whether to add them to the
+staging area and commit them.
+
+The staging area serves as a bridge between my working directory and the repository.
+Everything is stored in my working directory, so I take them out and lay them bare so that I can
+assess what goes where. Once I've decided what to add and what to remove, then I can commit them
+to the repository. The staging area is workspace and a buffer.
