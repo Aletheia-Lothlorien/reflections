@@ -15,3 +15,8 @@ When I wish to experiment with some feature, approach it from a different angle,
 
 Visualizing the history tree, with its branches and indications of parents, helps to consolidate
 and understanding of the process.
+
+When two branches are merged, a new commit is created that now has 2 parents, one from each branch.
+If, for example, a side branch is merged into master, and then the side branch is "deleted", it is
+only the "label" for the side branch that is deleted. The entire history remains and is reachable
+via master's history.
