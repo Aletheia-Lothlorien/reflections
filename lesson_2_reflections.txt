@@ -6,3 +6,9 @@ The staging area serves as a bridge between my working directory and the reposit
 Everything is stored in my working directory, so I take them out and lay them bare so that I can
 assess what goes where. Once I've decided what to add and what to remove, then I can commit them
 to the repository. The staging area is workspace and a buffer.
+
+The staging area also helps to break apart larger changes. If I have a few different files that
+need to be committed, but they regard logically separate chunks, I can commit them incrementally
+via the staging area to ensure that all commits a are clear, concise, and informative.
+
+When I wish to experiment with some feature, approach it from a different angle, or maintain an alternate universe, I could create branches of the repository tree. There I'm free to do what I like without affecting the master branch. If I so choose I could then merge the branches to consolidate the changes.
