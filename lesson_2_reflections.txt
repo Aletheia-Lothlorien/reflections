@@ -12,3 +12,6 @@ need to be committed, but they regard logically separate chunks, I can commit th
 via the staging area to ensure that all commits a are clear, concise, and informative.
 
 When I wish to experiment with some feature, approach it from a different angle, or maintain an alternate universe, I could create branches of the repository tree. There I'm free to do what I like without affecting the master branch. If I so choose I could then merge the branches to consolidate the changes.
+
+Visualizing the history tree, with its branches and indications of parents, helps to consolidate
+and understanding of the process.
