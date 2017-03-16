@@ -1,0 +1,34 @@
+Using `diff` on different versions of a file made spotting the difference trivial.
+Doing this by hand was mildly tedious for a short file; doing so for a long file would be
+frustrating.
+
+Having different versions of a file allows me to track progress, revert to a prior working state,
+and simplify the process of upgrading my work. Version control seems to be a distinctly helpful
+tool.
+
+It seems to follow, then, that having a detailed history of my files would make me more efficient
+in continuously upgrading my work, running tests, and incrementally building a project.
+
+Having a system automatically save changes certainly is convenient: what if I forget?
+Or the computer crashes?
+Automatic saves are likely to produce too many nonsense commits. Maybe I was in the middle of a
+line. It could very likely be an unusable, non-functional state.
+Committing manually allows me to save logical changes.
+Each change has a clear purpose. Each commit represents a functional, revertible checkpoint.
+
+
+By taking a snapshot of the repository, multiple related files can be tracked together.
+While this may be useful for certain prose projects, code seems a more likely candidate,
+classes, headers, mains, etc.
+
+
+With the `git log` family of commands I can track all commits. Most members of this family
+will indicate the changes at a glance, but of course I can `diff` any two commits by hash
+to drill deeper into the specifics.
+
+
+Knowing this, I can feel freer to make breaking changes to my code because I can always
+revert to a prior working state if I make a mistake. I expect this to make it easier for me
+to experiment and be creative.
+
+So I would like to use Git for code, dotfile backup/sync, and maybe book writing.
